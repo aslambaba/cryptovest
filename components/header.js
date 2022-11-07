@@ -7,7 +7,7 @@ export default function Header({ data, ConnectToWallet }) {
   )}`;
   return (
     <div className="headerBar">
-      <h2>MyCryptoWorld</h2>
+      <h2>Cryptovest.</h2>
 
       <div className="WalletDetail">
         {IsMeta && !address ? (
