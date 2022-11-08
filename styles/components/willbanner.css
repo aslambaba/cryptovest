@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Mukta&display=swap');
+.WillBanner{
+    display: flex;
+    padding: 40px;
+}
+.WillBannerPhoto{
+    text-align: center;
+}
+.WillBannerText,.WillBannerPhoto{
+    flex: 1;
+}
+.WillBannerText {
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(53, 52, 52);
+    font-size: 1.5em;
+}
+.WillBannerText input{
+    width: 90%;
+    font-family: 'Mukta', sans-serif;
+    padding: 15px 14px;
+    margin: 5px 0px;
+    border: 1px solid #393E46;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.WillBannerText button{
+    font-family: 'Exo 2', sans-serif;
+    padding: 15px 12px;
+    width: 30%;
+    margin: 15px 0px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

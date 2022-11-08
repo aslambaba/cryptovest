@@ -1,6 +1,7 @@
 import { ethers } from "ethers";
 import { useEffect, useState } from "react";
 import Header from "../components/header";
+import WillBanner from "../components/willBanner";
 
 export default function Home() {
   const [IsMeta, setIsMeta] = useState(false);
@@ -54,6 +55,7 @@ export default function Home() {
         data={{ address: currentAddress, balance: currentBalance, IsMeta }}
         ConnectToWallet={ConnectToWallet}
       />
+      <WillBanner/>
     </div>
   );
 }
