@@ -25,9 +25,12 @@
 }
 .WillBannerText button{
     font-family: 'Exo 2', sans-serif;
-    padding: 15px 12px;
-    width: 30%;
+    padding: 10px 0px;
+    width: 25%;
+    border-radius: 4px;
     margin: 15px 0px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
+    background-color: #414141;
+    color: white;
 }

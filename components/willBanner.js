@@ -7,7 +7,7 @@ export default function WillBanner({ data }) {
   const { address, balance, IsMeta, TFContract } = data;
   const ethAmount = useRef("0");
   const RecieverAdd = useRef("");
-  async function H() {
+  async function SendETH() {
     let unformatEther = ethers.utils.parseEther(ethAmount.current.value);
 
     await window.ethereum
@@ -56,7 +56,7 @@ export default function WillBanner({ data }) {
             />
             <input placeholder="Amount" type="float" ref={ethAmount} />
             <input placeholder="Reciver Address" ref={RecieverAdd} />
-            <button onClick={() => H()}>Get Started</button>
+            <button onClick={() => SendETH()}>Send</button>
           </>
         )}
       </div>
